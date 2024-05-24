@@ -3,6 +3,16 @@ body {
     margin: 0;
     padding: 0;
 }
+h1 {
+    font-size: 3.5rem;
+}
+
+@media (max-width: 500px) {
+    h1 {
+        font-size: 2rem;
+    }
+}
+
 main {
     height: 100dvh;
     display: flex;
@@ -10,6 +20,8 @@ main {
     align-items: center;
     flex-direction: column;
     font-family: 'Courier New';
+    margin: 0 1rem ;
+    text-align: center;
 }
 
 img {
